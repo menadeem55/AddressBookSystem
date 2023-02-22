@@ -92,6 +92,7 @@ public class Contact {
 		this.email = email;
 	}
 
+	
 	@Override
 	public String toString() {
 		return "Contact{" + "firstName='" + firstName + '\'' + ", lastName='" + lastName + '\'' + ", street='" + street

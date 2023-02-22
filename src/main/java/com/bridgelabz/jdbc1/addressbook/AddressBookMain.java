@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
-
 public class AddressBookMain {
 	public static void main(String[] args) {
 		System.out.println("Welcome to Address Book Program");
@@ -83,7 +82,6 @@ public class AddressBookMain {
 				}
 				System.out.println();
 				break;
-
 			case 7:
 				Set<Map.Entry<String, AddressBook>> addressBook = addressBookHashMap.entrySet();
 				if (addressBook.isEmpty()) {
@@ -96,7 +94,6 @@ public class AddressBookMain {
 				}
 				break;
 			default:
-
 				System.out.println("Invalid Input");
 			}
 		}
